@@ -22,14 +22,14 @@ header {
 }
 
 .rotacao-botao {
-    transform: rotate(90deg);
-    transform-origin: right center;
+    transform:rotate(-90deg);
+   transform-origin: right center;
 }
 
 .opcoes-acessibilidade {
-margin-top: 10px;
-display:flex;
-flex-direction: column;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .opcoes-acessibilidade button {
@@ -37,7 +37,7 @@ flex-direction: column;
 }
 
 .apresenta-lista {
-    display:none;
+    display: none;
 }
 
 section {
